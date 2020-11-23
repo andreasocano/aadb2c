@@ -1,0 +1,37 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.30406.217
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Ocano.OcanoAD.SSOAdapter.API", "src\Ocano.OcanoAD.SSOAdapter.API\Ocano.OcanoAD.SSOAdapter.API.csproj", "{9FFD34B3-0CAE-46CD-8078-694B75DD0025}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Ocano.OcanoAD.SSOAdapter.Contracts", "src\Ocano.OcanoAD.SSOAdapter.Contracts\Ocano.OcanoAD.SSOAdapter.Contracts.csproj", "{34D924A2-5D41-4EDB-A9A4-6F14E7FE21B1}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Ocano.OcanoAD.SSOAdapter.Core", "src\Ocano.OcanoAD.SSOAdapter.Core\Ocano.OcanoAD.SSOAdapter.Core.csproj", "{FB243A24-0C72-43AD-AEE8-FB156F02A9A8}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{9FFD34B3-0CAE-46CD-8078-694B75DD0025}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{9FFD34B3-0CAE-46CD-8078-694B75DD0025}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{9FFD34B3-0CAE-46CD-8078-694B75DD0025}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{9FFD34B3-0CAE-46CD-8078-694B75DD0025}.Release|Any CPU.Build.0 = Release|Any CPU
+		{34D924A2-5D41-4EDB-A9A4-6F14E7FE21B1}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{34D924A2-5D41-4EDB-A9A4-6F14E7FE21B1}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{34D924A2-5D41-4EDB-A9A4-6F14E7FE21B1}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{34D924A2-5D41-4EDB-A9A4-6F14E7FE21B1}.Release|Any CPU.Build.0 = Release|Any CPU
+		{FB243A24-0C72-43AD-AEE8-FB156F02A9A8}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{FB243A24-0C72-43AD-AEE8-FB156F02A9A8}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{FB243A24-0C72-43AD-AEE8-FB156F02A9A8}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{FB243A24-0C72-43AD-AEE8-FB156F02A9A8}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {0037A147-2D29-4B47-9EAF-BCF7F799FE44}
+	EndGlobalSection
+EndGlobal
