@@ -87,18 +87,16 @@ namespace Ocano.OcanoAD.SSOAdapter.Core.Repositories
         {
             if (request == null) return null;
             var email = request.EmailAddress;
-            if (string.IsNullOrWhiteSpace(email))return null;
-            var user = await Get(email);
-            if (user == null) return null;
-            var userPrincipalName = user.UserPrincipalName;
+            if (string.IsNullOrWhiteSpace(email)) return null;
+            var userPrincipalName = UserPrincipalName(email);
             if (string.IsNullOrWhiteSpace(userPrincipalName)) return null;
-            user = User(request);
+            var user = User(request);
             if (user == null) return null;
             if (await TryAssignByUserPrincipalName(userPrincipalName, user))
                 return user;
             return null;
         }
-     
+
         public async Task Delete(string email)
         {
             try
